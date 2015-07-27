@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+body{
+	/*background: url(http://zonewow.com/public/style_images/zonewow/_custom/img/backgrounds/4.jpg);*/
+	background: #CCCCCC;
+}
+
+a{
+	color: #a5a5a5;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#cont{
+	font-family: 'Droid Sans', sans-serif;
+	width: 90%;
+	margin: 0 auto;
+	color: #5a5a5a;
+	background: #DDD;
+	box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.2);
+	padding-bottom: 1em;
+}
+
+#title{
+	text-align: center;
+	text-transform: uppercase;
+	background: #110705 url(http://zonewow.com/public/style_images/zonewow/_custom/img/announcements/bg-1.jpg);
+	background-size: 1193px 313px;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #eee;
+	text-shadow: 0 0 3px #000;
+	height: 0px;
+	font-size: 3em;
+	letter-spacing: .25em;
+	padding-bottom: 156px;
+	padding-top: 156px;
+}
+
+.entrada{
+	margin: 1em;
+	padding-bottom: 1em;
+}
+
+.entrada-tit{
+	font-size: 2em;
+	color: #5a5a5a;
+	margin-left: 1em;
+}
+
+.entrada-cont{
+	color: #000;
+	margin-left: 3em;
+}
+
+.date{
+	font-size: 1em;
+	margin-left: 1em;
+}
+
+.entrada-tit, .date{
+	display: inline;
+}
